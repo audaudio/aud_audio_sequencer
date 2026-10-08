@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'dart:async';
 
-import 'package:aud_audio_sequencer/aud_audio_sequencer.dart' as aud_audio_sequencer;
+import 'package:aud_audio_sequencer/aud_audio_sequencer.dart'
+    as aud_audio_sequencer;
 
 void main() {
   runApp(const MyApp());

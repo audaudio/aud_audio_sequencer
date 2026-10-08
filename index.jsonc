@@ -1,0 +1,21 @@
+// @license
+// Copyright (c) Audanika. All Rights Reserved.
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "aud_audio_sequencer",
+  "summary": "Sequencer of the Audanika Audio Engine: render-thread sequencer with tracks, clips, loops and transport.",
+  "domain": [
+    "Sequencer of the Audanika Audio Engine"
+  ],
+  "interfaces": {
+    "uses": {
+      "aud_audio_graph": "package dependency"
+    },
+    "usedBy": {
+      "aud_audio_ui_piano_roll": "consumes this package"
+    }
+  }
+}
