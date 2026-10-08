@@ -1,0 +1,16 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: AudAudioSequencerBindings
+description: |
+  Bindings for `src/aud_audio_sequencer.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/aud_audio_sequencer_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/aud_audio_sequencer.h'
+  include-directives:
+    - 'src/aud_audio_sequencer.h'
+ffi-native:
+comments:
+  style: any
+  length: full
