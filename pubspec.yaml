@@ -1,6 +1,6 @@
 name: aud_audio_sequencer
 description: "Sequencer of the Audanika Audio Engine: render-thread sequencer with tracks, clips, loops and transport"
-version: 0.0.1
+version: 0.0.2
 publish_to: none
 homepage: https://github.com/audaudio/aud_audio_sequencer
 repository: https://github.com/audaudio/aud_audio_sequencer
