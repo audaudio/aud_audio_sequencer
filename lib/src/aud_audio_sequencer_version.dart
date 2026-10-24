@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_audio_sequencer` package.
-const String audAudioSequencerVersion = '0.0.2';
+const String audAudioSequencerVersion = '0.0.3';
